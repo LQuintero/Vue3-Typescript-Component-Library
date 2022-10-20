@@ -18,12 +18,7 @@ export default [
     ],
     plugins: [
       peerDepsExternal(),
-      //resolve(),
-      typescript({
-        // check: true,
-        rollupCommonJSResolveHack: false,
-        clean: true
-      }),
+      typescript(),
       vue()
     ]
   }

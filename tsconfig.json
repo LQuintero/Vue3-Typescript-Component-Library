@@ -7,10 +7,7 @@
     "declaration": true,
     "importHelpers": true,
     "strict": true,
-    "experimentalDecorators": true,
-    "moduleResolution": "node",
-    "isolatedModules": true,
-    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true
   },
   "include": ["src/**/*.ts", "src/**/*.vue"]
 }

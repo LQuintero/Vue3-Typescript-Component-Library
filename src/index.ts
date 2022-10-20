@@ -1,9 +1,3 @@
-import { App, Plugin } from 'vue'
+import BaseButton from "./components/BaseButton.vue";
 
-import BaseButton from'./components/BaseButton.vue'
-
-export default {
-    install(Vue: App) {
-        Vue.component(BaseButton.name, BaseButton)
-    }
-} as Plugin
+export { BaseButton };
