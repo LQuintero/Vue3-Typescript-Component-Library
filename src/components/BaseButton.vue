@@ -56,8 +56,8 @@ export default defineComponent({
 })
 </script>
 
-<style scoped>
-/* .base-button {
+<style lang="scss" scoped>
+.base-button {
   border-radius: 3px;
   font-size: 20px;
   font-weight: bold;
@@ -84,5 +84,5 @@ export default defineComponent({
   background-color: #5587f8;
   border: 1px solid #5c778e;
   font-size: 20px;
-} */
+}
 </style>
