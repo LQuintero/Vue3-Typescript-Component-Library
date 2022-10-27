@@ -6,8 +6,11 @@
     "sourceMap": true,
     "declaration": true,
     "importHelpers": true,
-    "strict": true,
-    "experimentalDecorators": true
+    "strict": true
   },
-  "include": ["src/**/*.ts", "src/**/*.vue"]
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.vue",
+    "test"
+  ]
 }
